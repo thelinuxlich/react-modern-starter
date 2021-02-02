@@ -7,6 +7,7 @@
 - Vite for bundling
 - Uvu for testing
 - C8 for code coverage
+- Prettier for formatting, ESLint for lint
 
 ## Setup
 
