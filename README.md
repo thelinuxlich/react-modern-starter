@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/dotbc/frontend-starter/workflows/Node.js%20CI/badge.svg)
+
 # frontend-starter
 
 - React for rendering
