@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "vite",
     "build": "NODE_ENV=production vite build",
-    "serve": "vite preview",
     "test": "c8 uvu tests -r esm -r @babel/register -i setup"
   },
   "dependencies": {

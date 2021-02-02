@@ -16,5 +16,4 @@
 
 - yarn dev
 - yarn build
-- yarn serve
 - yarn test
