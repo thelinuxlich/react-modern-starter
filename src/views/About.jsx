@@ -12,23 +12,24 @@ const About = () => {
               <div className='sm:text-center lg:text-left'>
                 <h2 className='text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl'>
                   This demo is using
-                  <br className='xl:hidden' />{' '}
+                  <br className='xl:hidden' />
                   <a
                     target='_blank'
                     className='text-indigo-600 underline hover:text-indigo-500'
+                    rel='noreferrer'
                     href='https://tailwindcss.com'
                   >
                     Tailwind CSS
                   </a>
                 </h2>
                 <p className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-                  All the code present here is part of a free sample from{' '}
+                  All the code present here is part of a free sample from
                   <a
                     href='https://tailwindui.com'
                     className='text-indigo-600 underline hover:text-indigo-500'
                   >
                     Tailwind UI
-                  </a>{' '}
+                  </a>
                   but, you don't need it.
                 </p>
                 <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>

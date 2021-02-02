@@ -1,0 +1,10 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "semi": false,
+  "singleQuote": true,
+  "decorators-legacy": true,
+  "tabWidth": 2,
+  "useTabs": false
+}

@@ -1,8 +1,10 @@
 {
   "name": "frontend-starter",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint --quiet --ext js,jsx,ts,tsx src/**",
     "build": "NODE_ENV=production vite build",
     "test": "c8 uvu tests -r esm -r @babel/register -i setup"
   },
@@ -19,8 +21,14 @@
     "@babel/plugin-transform-react-jsx": "7.10.4",
     "@babel/preset-react": "^7.12.10",
     "@babel/register": "7.10.4",
+    "@babel/plugin-proposal-decorators": "*",
     "@vitejs/plugin-react-refresh": "^1.1.0",
     "autoprefixer": "^10.0.2",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "@babel/eslint-parser": "*",
+    "prettier": "*",
     "esm": "^3.2.25",
     "jsdom": "^16.4.0",
     "postcss": "^8.1.10",
