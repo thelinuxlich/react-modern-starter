@@ -22,8 +22,8 @@ const Nav = () => {
           <div className='flex items-center'>
             <div className='flex-shrink-0'>
               <img
-                className='h-16 w-48'
-                src='https://verifi.media/verifi-logo.png'
+                className='h-32 w-48'
+                src='https://freesvg.org/img/public-domain-logo-streamlined.png'
                 alt='Workflow logo'
               />
             </div>
@@ -81,7 +81,7 @@ const Nav = () => {
                     <span className='sr-only'>Open user menu</span>
                     <img
                       className='h-8 w-8 rounded-full'
-                      src='https://upload.wikimedia.org/wikipedia/commons/0/0f/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_%28cropped%29.jpg'
+                      src='http://res.publicdomainfiles.com/pdf_view/67/13925290811011.png'
                       alt=''
                     />
                   </button>
@@ -180,16 +180,16 @@ const Nav = () => {
             <div className='flex-shrink-0'>
               <img
                 className='h-10 w-10 rounded-full'
-                src='https://upload.wikimedia.org/wikipedia/commons/0/0f/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_%28cropped%29.jpg'
+                src='http://res.publicdomainfiles.com/pdf_view/67/13925290811011.png'
                 alt=''
               />
             </div>
             <div className='ml-3'>
               <div className='text-base font-medium leading-none text-white'>
-                Kanye West
+                Sherlock Holmes
               </div>
               <div className='text-sm font-medium leading-none text-gray-400'>
-                kanye@example.com
+                sherlock@example.com
               </div>
             </div>
           </div>
