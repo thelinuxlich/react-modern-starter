@@ -15,6 +15,8 @@
 
 ## Setup
 
+- Clone to local
+- cd react-modern-starter
 - yarn
 
 ## Tasks
