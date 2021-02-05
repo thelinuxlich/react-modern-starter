@@ -1,13 +1,17 @@
-![Node.js CI](https://github.com/dotbc/frontend-starter/workflows/Node.js%20CI/badge.svg)
+![Node.js CI](https://github.com/dotbc/react-modern-starter/workflows/Node.js%20CI/badge.svg)
 
-# frontend-starter
+# react-modern-starter
 
-- React for rendering
-- Valtio for state management
-- Vite for bundling
-- Uvu for testing
-- C8 for code coverage
-- Prettier for formatting, ESLint for lint
+- ![React](https://reactjs.org/docs/getting-started.html) for rendering
+- ![React Router](https://reactrouter.com/web/guides/quick-start) for routing
+- ![Valtio](https://github.com/pmndrs/valtio) for state management
+- ![Tailwind CSS](https://tailwindcss.com) for UI
+- ![Vite](https://vitejs.dev/guide/) for bundling
+- ![uvu](https://github.com/lukeed/uvu) for testing
+- ![C8](https://github.com/bcoe/c8) for code coverage
+- ![Prettier-Standard](https://github.com/sheerun/prettier-standard) for formatting and linting
+- ![lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
+- Github Actions CI preconfigured for running lint + tests
 
 ## Setup
 
@@ -18,4 +22,4 @@
 - yarn dev
 - yarn build
 - yarn test
-- yarn lint
+- yarn format
