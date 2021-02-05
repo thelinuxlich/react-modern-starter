@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/dotbc/react-modern-starter/workflows/Node.js%20CI/badge.svg)
+![Node.js CI](https://github.com/thelinuxlich/react-modern-starter/workflows/Node.js%20CI/badge.svg)
 
 # react-modern-starter
 
