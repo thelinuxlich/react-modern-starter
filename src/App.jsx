@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
+
+import './index.css'
 
 import Nav from './components/Nav'
 
@@ -9,7 +11,7 @@ import NotFound from './views/NotFound'
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <Nav />
       <Switch>
         <Route exact path='/'>
@@ -22,7 +24,7 @@ const App = () => {
           <NotFound />
         </Route>
       </Switch>
-    </Router>
+    </div>
   )
 }
 
