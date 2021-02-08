@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3333",
     "format": "prettier-standard --format",
-    "dev:serve": "node server",
+    "dev:serve": "SSR_PORT=3334 node server",
     "build": "yarn build:client && yarn build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
     "generate": "vite build --outDir dist/static && yarn build:server && node prerender",
-    "serve": "cross-env NODE_ENV=production node server",
+    "serve": "cross-env NODE_ENV=production SSR_PORT=3334 node server",
     "test": "c8 uvu tests -r esm -r @babel/register -i setup"
   },
   "lint-staged": {
