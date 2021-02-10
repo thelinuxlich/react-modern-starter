@@ -12,6 +12,7 @@
 - [Prettier-Standard](https://github.com/sheerun/prettier-standard) for formatting and linting
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
 - Github Actions CI preconfigured for running lint + tests
+- SSR/SSG builtin
 
 ## Setup
 
@@ -21,7 +22,12 @@
 
 ## Tasks
 
-- yarn dev
-- yarn build
-- yarn test
-- yarn format
+- yarn dev (standard dev server)
+- yarn format (format the codebase following prettier-standard rules)
+- yarn dev:serve (SSR dev server)
+- yarn build (bundle client and server(SSR) for production)
+- yarn build:client (bundle client for production)
+- yarn build:server (bundle server(SSR) for production)
+- yarn generate (bundle static SSR/SSG)
+- yarn serve (preview the production bundle(SSR))
+- yarn test (run the test suite and generate code coverage)

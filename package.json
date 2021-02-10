@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3333",
     "format": "prettier-standard --format",
-    "build": "NODE_ENV=production vite build",
+    "dev:serve": "SSR_PORT=3334 node server",
+    "build": "yarn build:client && yarn build:server",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
+    "generate": "vite build --outDir dist/static && yarn build:server && node prerender",
+    "serve": "cross-env NODE_ENV=production SSR_PORT=3334 node server",
     "test": "c8 uvu tests -r esm -r @babel/register -i setup"
   },
   "lint-staged": {
@@ -14,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0",
@@ -27,12 +33,15 @@
     "@vitejs/plugin-react-refresh": "^1.1.0",
     "autoprefixer": "^10.0.2",
     "c8": "^7.5.0",
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
     "esm": "^3.2.25",
-    "prettier-standard": "^16.3.0",
     "husky": ">=4",
     "jsdom": "^16.4.0",
     "lint-staged": ">=10",
     "postcss": "^8.1.10",
+    "prettier-standard": "^16.3.0",
+    "serve-static": "^1.14.1",
     "uvu": "^0.5.1",
     "vite": "^2.0.0-beta.61"
   },
