@@ -13,6 +13,7 @@
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
+- Rudimentary autorouting based on directory convention(similar to Next.js)
 
 ## Setup
 
