@@ -1309,6 +1309,11 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-plugin-valtio@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-valtio/-/eslint-plugin-valtio-0.2.0.tgz#5a4338e11025a7dc973c2b1c20f914dda99c7264"
+  integrity sha512-lXjJG/NBJklednFtcNGYOcBXLG85hbNuNaI864jb+bPe3KQytHbrnfY30DsE1Amq+xYqtOawU++6wajz6opT2g==
+
 eslint-scope@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"

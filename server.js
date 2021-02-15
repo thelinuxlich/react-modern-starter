@@ -2,15 +2,14 @@
 const fs = require('fs')
 const path = require('path')
 const express = require('express')
-const React = require('react')
 
 const isTest = process.env.NODE_ENV === 'test' || !!process.env.VITE_TEST_BUILD
 
-async function createServer(
+async function createServer (
   root = process.cwd(),
   isProd = process.env.NODE_ENV === 'production'
 ) {
-  const resolve = (p) => path.resolve(__dirname, p)
+  const resolve = p => path.resolve(__dirname, p)
 
   const indexProd = isProd
     ? fs.readFileSync(resolve('dist/client/index.html'), 'utf-8')
@@ -66,7 +65,10 @@ async function createServer(
 
       const html = template.replace(`<!--app-html-->`, appHtml)
 
-      res.status(200).set({ 'Content-Type': 'text/html' }).end(html)
+      res
+        .status(200)
+        .set({ 'Content-Type': 'text/html' })
+        .end(html)
     } catch (e) {
       !isProd && vite.ssrFixStacktrace(e)
       console.log(e.stack)
