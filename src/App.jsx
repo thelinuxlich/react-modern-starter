@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch } from 'react-router-dom'
 
+import 'windi.css'
 import './index.css'
 
 import routes from './AutoRouting'

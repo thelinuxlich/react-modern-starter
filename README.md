@@ -5,7 +5,7 @@
 - [React](https://reactjs.org/docs/getting-started.html) for rendering
 - [React Router](https://reactrouter.com/web/guides/quick-start) for routing
 - [Valtio](https://github.com/pmndrs/valtio) for state management
-- [Tailwind CSS](https://tailwindcss.com) for UI
+- [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack
 - [Vite](https://vitejs.dev/guide/) for bundling
 - [uvu](https://github.com/lukeed/uvu) for testing
 - [C8](https://github.com/bcoe/c8) for code coverage
