@@ -42,7 +42,7 @@
     "prettier-standard": "^16.3.0",
     "serve-static": "^1.14.1",
     "uvu": "^0.5.1",
-    "vite": "^2.0.0-beta.67"
+    "vite": "^2.0.0-beta.69"
   },
   "husky": {
     "hooks": {

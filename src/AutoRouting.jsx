@@ -9,7 +9,7 @@ let NotFound = null
 let Home = null
 for (const path in modules) {
   const Mod = modules[path].default
-  const exactPath = path
+  let exactPath = path
     .replace('./views', '')
     .replace(/.js[x]?/, '')
     .toLowerCase()
@@ -19,6 +19,13 @@ for (const path in modules) {
     Home = Mod
   } else if (_path.length === 2 && routeName === 'notfound') {
     NotFound = Mod
+  } else if (_path.length > 2 && routeName === '[id]') {
+    exactPath = exactPath.replace('[id]', '')
+    routes.push(
+      <Route path={`${exactPath}:id`} key={`${exactPath}:id`}>
+        <Mod />
+      </Route>
+    )
   } else {
     routes.push(
       <Route exact path={exactPath} key={exactPath}>
