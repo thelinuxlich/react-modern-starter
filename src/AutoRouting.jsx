@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom'
-
+import React from 'react'
 const routes = []
 
 // a poor man's autorouting based on file structure. Home and NotFound components convention-based

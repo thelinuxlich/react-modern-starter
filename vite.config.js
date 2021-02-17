@@ -6,8 +6,5 @@ import WindiCSS from 'vite-plugin-windicss'
  * @type { import('vite').UserConfig }
  */
 export default {
-  esbuild: {
-    jsxInject: `import React from 'react'`
-  },
   plugins: [WindiCSS(), reactRefresh()]
 }
