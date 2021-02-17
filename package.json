@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --port 3333",
-    "format": "prettier-standard --format --parser esbuild",
+    "format": "prettier-standard --format",
     "dev:serve": "SSR_PORT=3334 node server",
     "build": "yarn build:client && yarn build:server",
     "build:client": "vite build --outDir dist/client",
@@ -14,7 +14,9 @@
     "test": "c8 uvu tests -r esbuild-register -i setup"
   },
   "lint-staged": {
-    "*": ["prettier-standard --lint"]
+    "*": [
+      "prettier-standard --lint"
+    ]
   },
   "dependencies": {
     "express": "^4.17.1",
