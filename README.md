@@ -8,6 +8,7 @@
 - [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack
 - [Vite](https://vitejs.dev/guide/) for bundling
 - [uvu](https://github.com/lukeed/uvu) for testing
+- [linkedom](https://github.com/WebReflection/linkedom) for speedy simulation of the browser environment in uvu tests
 - [C8](https://github.com/bcoe/c8) for code coverage
 - [Prettier-Standard](https://github.com/sheerun/prettier-standard) for formatting and linting
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
