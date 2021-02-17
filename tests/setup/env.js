@@ -1,34 +1,36 @@
-import { JSDOM } from 'jsdom'
+import { parseHTML } from 'linkedom'
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import { act } from 'react-dom/test-utils'
 
-const { window } = new JSDOM('<main></main>')
+const { window, document, Event } = parseHTML('<div id="main"></div>')
 
 export function setup () {
   global.window = window
-  global.document = window.document
-  global.navigator = window.navigator
-  global.getComputedStyle = window.getComputedStyle
-  global.requestAnimationFrame = null
+  global.document = document
+  global.Event = Event
 }
 
 export function reset () {
-  window.document.title = ''
-  window.document.head.innerHTML = ''
-  window.document.body.innerHTML = '<main></main>'
+  document.title = ''
+  document.head.innerHTML = ''
+  document.body.innerHTML = '<div id="main"></div>'
 }
 
 export function render (Tag, props = {}) {
-  const container = window.document.querySelector('main')
-  const component = React.createElement(Tag, props)
-  ReactDOM.render(component, container)
-  return { container, component }
+  try {
+    const container = document.querySelector('#main')
+    const component = React.createElement(Tag, props)
+    ReactDOM.render(component, container)
+    return { container, component }
+  } catch (e) {
+    console.log(e)
+  }
 }
 
 export async function fire (elem, event, details) {
   await act(() => {
-    let evt = new window.Event(event, details)
+    const evt = new Event(event, details)
     elem.dispatchEvent(evt)
   })
 }
