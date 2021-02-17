@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route } from 'react-router-dom'
 
 const routes = []
@@ -19,6 +18,13 @@ for (const path in modules) {
     Home = Mod
   } else if (_path.length === 2 && routeName === 'notfound') {
     NotFound = Mod
+  } else if (_path.length > 2 && routeName === 'index') {
+    exactPath = exactPath.replace('index', '')
+    routes.push(
+      <Route exact path={exactPath} key={exactPath}>
+        <Mod />
+      </Route>
+    )
   } else if (_path.length > 2 && routeName === '[id]') {
     exactPath = exactPath.replace('[id]', '')
     routes.push(

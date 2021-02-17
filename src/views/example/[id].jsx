@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom'
-import React from 'react'
 
 const Page = () => {
   let { id } = useParams()
