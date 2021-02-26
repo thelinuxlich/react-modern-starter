@@ -1,9 +1,10 @@
-![Node.js CI](https://github.com/thelinuxlich/react-modern-starter/workflows/Node.js%20CI/badge.svg)&nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/thelinuxlich/react-modern-starter"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+![Node.js CI](https://github.com/thelinuxlich/react-modern-starter/workflows/Node.js%20CI/badge.svg)[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)&nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/thelinuxlich/react-modern-starter"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
 # react-modern-starter
 
 - [React](https://reactjs.org/docs/getting-started.html) for rendering
 - [React Router](https://reactrouter.com/web/guides/quick-start) for routing
+- [react-seo](https://github.com/americanexpress/react-seo) for SEO
 - [Valtio](https://github.com/pmndrs/valtio) for state management
 - [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack
 - [Vite](https://vitejs.dev/guide/) for bundling
@@ -12,6 +13,7 @@
 - [C8](https://github.com/bcoe/c8) for code coverage
 - [Prettier-Standard](https://github.com/sheerun/prettier-standard) for formatting and linting
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
+- [Commitizen](https://github.com/commitizen/cz-cli) intercepting your commits to help you add nice formatted messages
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)

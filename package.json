@@ -14,11 +14,10 @@
     "test": "c8 uvu tests -r esbuild-register -i setup"
   },
   "lint-staged": {
-    "*": [
-      "prettier-standard --lint"
-    ]
+    "*": ["prettier-standard --lint"]
   },
   "dependencies": {
+    "@americanexpress/react-seo": "^1.4.1",
     "express": "^4.17.1",
     "global": "^4.4.0",
     "react": "^17.0.0",
@@ -31,6 +30,7 @@
     "c8": "^7.5.0",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "esbuild": "^0.8.46",
     "esbuild-register": "^2.0.0",
     "eslint-plugin-valtio": "^0.2.0",
@@ -40,12 +40,18 @@
     "prettier-standard": "^16.3.0",
     "serve-static": "^1.14.1",
     "uvu": "^0.5.1",
-    "vite": "^2.0.0",
-    "vite-plugin-windicss": "^0.1.6"
+    "vite": "^2.0.3",
+    "vite-plugin-windicss": "^0.5.4"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
