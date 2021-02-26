@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/thelinuxlich/react-modern-starter/workflows/Node.js%20CI/badge.svg)[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)&nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/thelinuxlich/react-modern-starter"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+![Node.js CI](https://github.com/thelinuxlich/react-modern-starter/workflows/Node.js%20CI/badge.svg)[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)&nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/thelinuxlich/react-modern-starter"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
 # react-modern-starter
 
