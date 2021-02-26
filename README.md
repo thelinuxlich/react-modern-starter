@@ -14,6 +14,7 @@
 - [Prettier-Standard](https://github.com/sheerun/prettier-standard) for formatting and linting
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
 - [Commitizen](https://github.com/commitizen/cz-cli) intercepting your commits to help you add nice formatted messages
+- [Renovate](https://github.com/renovatebot/renovate) for automated dependency updates
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)
