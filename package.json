@@ -14,7 +14,9 @@
     "test": "c8 uvu tests -r esbuild-register -i setup"
   },
   "lint-staged": {
-    "*": "prettier-standard --lint"
+    "*": "prettier-standard --lint",
+    "*.js": "eslint --cache --fix",
+    "*.--format": "prettier --write"
   },
   "dependencies": {
     "@americanexpress/react-seo": "1.4.1",
