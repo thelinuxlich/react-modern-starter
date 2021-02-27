@@ -437,10 +437,10 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     react-refresh "^0.9.0"
 
-"@windicss/plugin-utils@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.5.4.tgz#69476a9d1fee92046695766bf7fbfe48e48809a7"
-  integrity sha512-zxpHdTsVZl7TF8A3uAymJCqMRlG83dMRAXf//fXonluoLDSJCuGBJyxN3NdkAyNZZR1L1DvoUUtkZLYOba+ElQ==
+"@windicss/plugin-utils@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.6.0.tgz#34eb852b7ff338bb933b0079112318a30d2aee00"
+  integrity sha512-CpXn3CRrAaDrpTjenidVfBz0JONLuGTFP6qjrwZ2tmhsKOuvTWw8Ic9JQ2a9L0AkYBH33lTso1qk70/PjnE6WQ==
   dependencies:
     esbuild "^0.8.52"
     esbuild-register "^2.0.0"
@@ -5060,12 +5060,12 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-plugin-windicss@0.5.4:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.5.4.tgz#35764e91536d596ac2c9266c3e16c546915d8b3e"
-  integrity sha512-iPLoqfpZdnRIY1AzweumpdE8ILQQnyhywZwJDqFpj8SZ3h43e5tfQFnJb5nS6FLccOsBcCV9JFugD2w6pGyfqg==
+vite-plugin-windicss@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.6.0.tgz#ac8f24e70439904b67adc1f133e692fb6257ecaf"
+  integrity sha512-PSFdm0hrAGaKFzkFOiz31+dODoKNbh9wo/3m/7/012WwV9oJ1mX/9OxDxACykW7hMR0YvWHFmC0UwtvMra+InQ==
   dependencies:
-    "@windicss/plugin-utils" "0.5.4"
+    "@windicss/plugin-utils" "0.6.0"
     windicss "^2.2.0"
 
 vite@2.0.4:
