@@ -2168,7 +2168,7 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-git-notify@^0.2.3:
+git-notify@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/git-notify/-/git-notify-0.2.3.tgz#1dc758bfa108ed4e6fc407618f7761c109248286"
   integrity sha512-fnUsm66BY6yQptuvnnQYseRKBFIO0l/IbLJJ01FuIZvCsFmRboWeaAT4BMIfdnaBC1F+63t4qM6ytej/y8gEGQ==
