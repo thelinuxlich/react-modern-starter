@@ -20,6 +20,7 @@
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)
+- Optional configuration for Netlify deployment
 
 ## Setup
 
