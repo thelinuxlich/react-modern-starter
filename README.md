@@ -16,6 +16,7 @@
 - [Commitizen](https://github.com/commitizen/cz-cli) intercepting your commits to help you add nice formatted messages
 - [Renovate](https://github.com/renovatebot/renovate) for automated dependency updates
 - [git-notify](https://github.com/jevakallio/git-notify) for communicating important updates during git pull to your team
+- [git-standup](https://github.com/kamranahmedse/git-standup) to recall what you did yesterday
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)
@@ -28,6 +29,7 @@
 
 ## Tasks
 
+- yarn standup (receive a pretty list of things you did on your last working day)
 - yarn dev (standard dev server)
 - yarn format (format the codebase following prettier-standard rules)
 - yarn dev:serve (SSR dev server)

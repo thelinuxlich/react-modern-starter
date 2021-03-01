@@ -2191,6 +2191,11 @@ git-raw-commits@^2.0.10:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
+git-standup@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/git-standup/-/git-standup-2.3.2.tgz#fca5ced09b1271465c7716b74336f6b5d0aab0f1"
+  integrity sha512-vDYicak+2y+u6TCtneCx/j6LuT9WhJShyWjTB5dhjXqTB9TJ/uF444OmYwrMlaT0/CqxHOV9NXlML+CR8AJxdA==
+
 glob-parent@^5.0.0, glob-parent@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
