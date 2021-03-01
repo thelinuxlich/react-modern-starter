@@ -35,6 +35,7 @@
     "esbuild-register": "2.0.0",
     "eslint": "7.21.0",
     "eslint-plugin-valtio": "0.3.0",
+    "git-notify": "^0.2.3",
     "husky": "4.3.8",
     "linkedom": "0.5.2",
     "lint-staged": "10.5.4",
@@ -48,7 +49,10 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "post-merge": "git-notify merge $HUSKY_GIT_PARAMS",
+      "post-rewrite": "git-notify rewrite $HUSKY_GIT_PARAMS",
+      "post-checkout": "git-notify checkout $HUSKY_GIT_PARAMS"
     }
   },
   "config": {
