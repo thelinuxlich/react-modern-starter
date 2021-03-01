@@ -15,6 +15,7 @@
 - [lint-staged](https://github.com/okonet/lint-staged) with precommit task for linting
 - [Commitizen](https://github.com/commitizen/cz-cli) intercepting your commits to help you add nice formatted messages
 - [Renovate](https://github.com/renovatebot/renovate) for automated dependency updates
+- [git-notify](https://github.com/jevakallio/git-notify) for communicating important updates during git pull to your team
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)
