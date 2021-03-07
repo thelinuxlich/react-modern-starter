@@ -458,10 +458,10 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     react-refresh "^0.9.0"
 
-"@windicss/plugin-utils@0.6.10":
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.6.10.tgz#39a7f5df9f515eae556ef610a8ae21be9b07ef0c"
-  integrity sha512-dMPHtUHmOktnikLah8tmMQjU2gb5AGxuXO8wen3lMo/G8YZI1H9Ua9qnMUIbaJ11mlGhpv89iYEsyfRHThbi/w==
+"@windicss/plugin-utils@0.6.11":
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.6.11.tgz#9d2a2f5ba3170700ad4b223435b8796cff934167"
+  integrity sha512-UBPe1yb4ZzGjISjbHV+e9/sj3+bvK2Bb+Mcn18qSW4mUfPnTY+tXBV7yvoaYILgZat9BOppHrRk9dwrI2DJD3w==
   dependencies:
     esbuild "^0.8.56"
     esbuild-register "^2.2.0"
@@ -1515,14 +1515,7 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-esbuild-register@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/esbuild-register/-/esbuild-register-2.2.0.tgz#1c68af6e8e6c4a23af01825224e71bcbd3c85d83"
-  integrity sha512-27039YMtpC3lI8yYGGm78SAQBtBo/4IPMReWVsNh4++VtvozmasBd1a2HiTdk0297iuA2pMzrzvL5cZJqQCKxQ==
-  dependencies:
-    jsonc-parser "^3.0.0"
-
-esbuild-register@^2.2.0:
+esbuild-register@2.2.0, esbuild-register@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/esbuild-register/-/esbuild-register-2.2.0.tgz#1c68af6e8e6c4a23af01825224e71bcbd3c85d83"
   integrity sha512-27039YMtpC3lI8yYGGm78SAQBtBo/4IPMReWVsNh4++VtvozmasBd1a2HiTdk0297iuA2pMzrzvL5cZJqQCKxQ==
@@ -5405,12 +5398,12 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-plugin-windicss@0.6.10:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.6.10.tgz#b2719bc9f29220208162e04c342a8983f7536fdb"
-  integrity sha512-ofeJGvHu/Tz+HIP9Ap0uQHBt5YNi2uv/4yoJH30I3zFE5gAdsKN3GgzrcySQEPaQIgWmcDNbpWqAFejLHFLpzw==
+vite-plugin-windicss@0.6.11:
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.6.11.tgz#62156e30d9ae1dd9d0a1664686c263ef36092f27"
+  integrity sha512-cFHyEVyCHGZ5Bu7L3EmiMKVsYtsI23+YBEd/bggEbdhdbv93bBk0M3j8ZVwZxwvKgJhLVG9Fthl3jAE+FVl0EA==
   dependencies:
-    "@windicss/plugin-utils" "0.6.10"
+    "@windicss/plugin-utils" "0.6.11"
     windicss "^2.2.6"
 
 vite@2.0.5:
