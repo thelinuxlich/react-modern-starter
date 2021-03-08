@@ -1,11 +1,11 @@
 import React from 'react'
 import state from '../store/root'
-import { useProxy } from 'valtio'
+import { useProxy } from 'valtio/macro'
 import { Link, useLocation } from 'react-router-dom'
 
 const Nav = () => {
   const location = useLocation()
-  const snapshot = useProxy(state)
+  useProxy(state)
 
   const links = [
     { text: 'Home', to: '/' },
@@ -86,7 +86,7 @@ const Nav = () => {
                     />
                   </button>
                 </div>
-                {snapshot.showProfileMenu && (
+                {state.showProfileMenu && (
                   <div className='origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5'>
                     <div
                       className='py-1 rounded-md bg-white shadow-xs'
@@ -161,7 +161,7 @@ const Nav = () => {
       </div>
 
       {/* Menu open: "block", Menu closed: "hidden" */}
-      <div className={`md:hidden ${snapshot.showMenu ? 'block' : 'hidden'}`}>
+      <div className={`md:hidden ${state.showMenu ? 'block' : 'hidden'}`}>
         <div className='px-2 pt-2 pb-3 sm:px-3'>
           {links.map((link, i) => (
             <Link
