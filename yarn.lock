@@ -1522,15 +1522,20 @@ esbuild-register@2.2.0, esbuild-register@^2.2.0:
   dependencies:
     jsonc-parser "^3.0.0"
 
-esbuild@0.8.56, esbuild@^0.8.56:
-  version "0.8.56"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.56.tgz#9c7c3d6e614db7367afa348adb0ab287c296735e"
-  integrity sha512-PTMdAWK3JI2MNW811znGssGP5GR44tQPr++VQ1rPP0n8Z1cTKbCPD3S/kXPLr3ZZDIwAaVm08fuFym6Rp8l/0A==
+esbuild@0.8.57:
+  version "0.8.57"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.57.tgz#a42d02bc2b57c70bcd0ef897fe244766bb6dd926"
+  integrity sha512-j02SFrUwFTRUqiY0Kjplwjm1psuzO1d6AjaXKuOR9hrY0HuPsT6sV42B6myW34h1q4CRy+Y3g4RU/cGJeI/nNA==
 
 esbuild@^0.8.52:
   version "0.8.52"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.52.tgz#6dabf11c517af449a96d66da20dfc204ee7b5294"
   integrity sha512-b5KzFweLLXoXQwdC/e2+Z80c8uo2M5MgP7yQEEebkFw6In4T9CvYcNoM2ElvJt8ByO04zAZUV0fZkXmXoi2s9A==
+
+esbuild@^0.8.56:
+  version "0.8.56"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.56.tgz#9c7c3d6e614db7367afa348adb0ab287c296735e"
+  integrity sha512-PTMdAWK3JI2MNW811znGssGP5GR44tQPr++VQ1rPP0n8Z1cTKbCPD3S/kXPLr3ZZDIwAaVm08fuFym6Rp8l/0A==
 
 escalade@^3.1.1:
   version "3.1.1"
