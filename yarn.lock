@@ -5445,7 +5445,7 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-plugin-babel-macros@^1.0.5:
+vite-plugin-babel-macros@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/vite-plugin-babel-macros/-/vite-plugin-babel-macros-1.0.5.tgz#417216812460eb0605d49a968dcea24e04f0d061"
   integrity sha512-QPPeIIiu1y6C9T0pG8gkOSuE5ukQ1o4AIaYGm9b8yFsk7C4T4wLmzxpXrVYMMWGmZ0ul5ZaNP+NY9+ROGMDiVw==
