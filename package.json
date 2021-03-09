@@ -27,6 +27,7 @@
     "valtio": "0.8.0"
   },
   "devDependencies": {
+    "@babel/helper-module-imports": "7.12.13",
     "@vitejs/plugin-react-refresh": "1.3.1",
     "c8": "7.6.0",
     "compression": "1.7.4",
@@ -46,6 +47,7 @@
     "serve-static": "1.14.1",
     "uvu": "0.5.1",
     "vite": "2.0.5",
+    "vite-babel-plugin": "^0.0.2",
     "vite-plugin-windicss": "0.7.1"
   },
   "husky": {
