@@ -2143,10 +2143,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-valtio@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-valtio/-/eslint-plugin-valtio-0.3.0.tgz#22cafb21d6766ca06028222ccd3a5fb22ed7bca3"
-  integrity sha512-NjLxmOFF7t9bkdvpZGkAkxLIKYPVPc114U/1F04AVQO4wIUwoQJhpfNyEs9hPjcKZUKUD2lbK1iwyzlSrSME1g==
+eslint-plugin-valtio@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-valtio/-/eslint-plugin-valtio-0.3.1.tgz#00770ab53ad97e5d6427f14036213fe45f47f55b"
+  integrity sha512-WeCV4bnZilwzjZ89uUSBeG/OMBc/2cjIYxJbjIs6Y6o70KxciXXA9rcVSzFQpO4iCEewiqYm35oqINQmxcu8+A==
 
 eslint-scope@^5.0.0, eslint-scope@^5.1.1:
   version "5.1.1"
