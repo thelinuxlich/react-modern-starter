@@ -36,7 +36,7 @@
     "esbuild": "0.8.57",
     "esbuild-register": "2.2.0",
     "eslint": "7.21.0",
-    "eslint-plugin-valtio": "0.3.0",
+    "eslint-plugin-valtio": "0.3.1",
     "git-notify": "0.2.3",
     "git-standup": "2.3.2",
     "husky": "4.3.8",
