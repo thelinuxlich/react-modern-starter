@@ -66,7 +66,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/core@^7.12.9", "@babel/core@^7.13.8":
+"@babel/core@^7.12.9":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.13.10.tgz"
   integrity sha512-bfIYcT0BdKeAZrovpMqX2Mx5NrgAckGbwT982AkdS5GNfn3KMGiprlBAtmBcFZRUmpaufS6WZFP8trvx8ptFDw==
@@ -258,7 +258,7 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.9.4.tgz"
   integrity sha512-bC49otXX6N0/VYhgOMh4gnP26E9xnDZK3TmbNpxYzzz9BQLBosQwfyOe9/cXUU3txYhTzLCbcqd5c8y/OmCjHA==
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.12.0", "@babel/parser@^7.12.7", "@babel/parser@^7.13.10":
+"@babel/parser@^7.12.0", "@babel/parser@^7.12.7", "@babel/parser@^7.13.10":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.13.10.tgz"
   integrity sha512-0s7Mlrw9uTWkYua7xWr99Wpk2bnGa0ANleKfksYAES8LpWH4gW1OUr42vqKNf0us5UQNfru2wPqMqRITzq/SIQ==
@@ -267,13 +267,6 @@
   version "7.13.9"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.13.9.tgz"
   integrity sha512-nEUfRiARCcaVo3ny3ZQjURjHQZUo/JkEw7rLlSZy/psWGnvwXFtPcr6jb7Yb41DVW5LTe6KRq9LGleRNsg1Frw==
-
-"@babel/plugin-syntax-jsx@^7.12.13":
-  version "7.12.13"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.12.13.tgz#044fb81ebad6698fe62c478875575bcbb9b70f15"
-  integrity sha512-d4HM23Q1K7oq/SLNmG6mRt85l2csmQ0cHRaxRXjKW0YFdEXqlZ5kzFQKH5Uc3rDJECgu+yCRgPkG04Mm98R/1g==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-typescript@^7.12.13":
   version "7.12.13"
@@ -389,7 +382,11 @@
     globals "^11.1.0"
     lodash "^4.17.19"
 
+<<<<<<< HEAD
 "@babel/types@^7.0.0", "@babel/types@^7.12.0", "@babel/types@^7.12.13", "@babel/types@^7.12.17", "@babel/types@^7.13.0", "@babel/types@^7.3.0":
+=======
+"@babel/types@^7.12.0", "@babel/types@^7.12.13", "@babel/types@^7.13.0":
+>>>>>>> bcd4691d0e2498d820816547e31d363b3e47e2f5
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.13.0.tgz"
   integrity sha512-hE+HE8rnG1Z6Wzo+MhaKE5lM5eMx71T4EHJgku2E3xIfaULhDcxiiRxUYgwX8qwP1BBSlag+TdGOt6JAidIZTA==
@@ -594,6 +591,7 @@
   dependencies:
     "@types/node" "*"
 
+<<<<<<< HEAD
 "@types/babel__core@^7.1.12":
   version "7.1.12"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.12.tgz"
@@ -627,6 +625,8 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+=======
+>>>>>>> bcd4691d0e2498d820816547e31d363b3e47e2f5
 "@types/body-parser@*":
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.0.tgz"
@@ -1154,6 +1154,7 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
+<<<<<<< HEAD
 babel-plugin-macros@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-3.0.1.tgz"
@@ -1163,6 +1164,8 @@ babel-plugin-macros@^3.0.1:
     cosmiconfig "^7.0.0"
     resolve "^1.19.0"
 
+=======
+>>>>>>> bcd4691d0e2498d820816547e31d363b3e47e2f5
 bail@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/bail/-/bail-1.0.5.tgz"
@@ -2213,7 +2216,12 @@ esbuild-register@2.2.0, esbuild-register@^2.2.0:
   dependencies:
     jsonc-parser "^3.0.0"
 
-esbuild@0.8.57, esbuild@^0.8.12, esbuild@^0.8.52, esbuild@^0.8.57:
+esbuild@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.9.0.tgz#b8320df85048ed1637c6b59ee52abba248936d3c"
+  integrity sha512-IqYFO7ZKHf0y4uJpJfGqInmSRn8jMPMbyI1W0Y2PSjSjJcVP538tC8TleJAS4Y8QeqwajqBTwFKayWVzYlMIgg==
+
+esbuild@^0.8.12, esbuild@^0.8.52, esbuild@^0.8.57:
   version "0.8.57"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.57.tgz"
   integrity sha512-j02SFrUwFTRUqiY0Kjplwjm1psuzO1d6AjaXKuOR9hrY0HuPsT6sV42B6myW34h1q4CRy+Y3g4RU/cGJeI/nNA==
@@ -2238,10 +2246,17 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+<<<<<<< HEAD
 eslint-plugin-valtio@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-valtio/-/eslint-plugin-valtio-0.3.0.tgz"
   integrity sha512-NjLxmOFF7t9bkdvpZGkAkxLIKYPVPc114U/1F04AVQO4wIUwoQJhpfNyEs9hPjcKZUKUD2lbK1iwyzlSrSME1g==
+=======
+eslint-plugin-valtio@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-valtio/-/eslint-plugin-valtio-0.3.1.tgz#00770ab53ad97e5d6427f14036213fe45f47f55b"
+  integrity sha512-WeCV4bnZilwzjZ89uUSBeG/OMBc/2cjIYxJbjIs6Y6o70KxciXXA9rcVSzFQpO4iCEewiqYm35oqINQmxcu8+A==
+>>>>>>> bcd4691d0e2498d820816547e31d363b3e47e2f5
 
 eslint-scope@^5.0.0, eslint-scope@^5.1.1:
   version "5.1.1"
@@ -6415,11 +6430,14 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
+<<<<<<< HEAD
 tslib@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
+=======
+>>>>>>> bcd4691d0e2498d820816547e31d363b3e47e2f5
 tsscmp@1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.6.tgz"
@@ -6693,7 +6711,7 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-babel-plugin@^0.0.2:
+vite-babel-plugin@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/vite-babel-plugin/-/vite-babel-plugin-0.0.2.tgz"
   integrity sha512-lRb9+vC8829VNbDq5qjCsAYf3krLGkmmjq2XQtrYt6aUoCcJTbGMImj120O+tI1Wd4Zg4eqP8B6WPGbSCrm1HA==
@@ -6703,18 +6721,6 @@ vite-babel-plugin@^0.0.2:
     "@babel/runtime" "^7.12.5"
     "@rollup/plugin-babel" "^5.2.2"
     vite "^1.0.0-rc.9"
-
-vite-plugin-babel-macros@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vite-plugin-babel-macros/-/vite-plugin-babel-macros-1.0.4.tgz#f61908cda57648b5cedd0209857a2f8b6adee77f"
-  integrity sha512-NFWytHJfSKJ+38kGy3S5phFuzJLL5RRW9+zRG+lJA7wyvE9PzkFglN6mNQImynAWjwaCcwSHgOJ3K9Rwr2AAoA==
-  dependencies:
-    "@babel/core" "^7.13.8"
-    "@babel/plugin-syntax-jsx" "^7.12.13"
-    "@babel/plugin-syntax-typescript" "^7.12.13"
-    "@types/babel__core" "^7.1.12"
-    babel-plugin-macros "^3.0.1"
-    tslib "^2.1.0"
 
 vite-plugin-windicss@0.7.1:
   version "0.7.1"
