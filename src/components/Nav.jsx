@@ -1,5 +1,5 @@
 import React from 'react'
-import state from '../store/root'
+import state from '@/store/root'
 import { useProxy } from 'valtio/macro'
 import { Link, useLocation } from 'react-router-dom'
 

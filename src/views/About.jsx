@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import Header from '@/components/Header'
 import React from 'react'
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
                   >
                     Tailwind UI
                   </a>
-                  &nbsp;but, you don't need it.
+                  &nbsp;but, you don&apos;t need it.
                 </p>
                 <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
                   <div className='rounded-md shadow'>

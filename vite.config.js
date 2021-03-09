@@ -1,10 +1,14 @@
 import reactRefresh from '@vitejs/plugin-react-refresh'
 import WindiCSS from 'vite-plugin-windicss'
-import babel from 'vite-babel-plugin'
+import macrosPlugin from 'vite-plugin-babel-macros'
+import path from 'path'
 /**
  * https://vitejs.dev/config/
  * @type { import('vite').UserConfig }
  */
 export default {
-  plugins: [babel(), WindiCSS(), reactRefresh()]
+  plugins: [WindiCSS(), reactRefresh(), macrosPlugin()],
+  resolve: {
+    alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }]
+  }
 }
