@@ -1,5 +1,5 @@
-import typography from 'windicss/plugin/typography'
-import forms from 'windicss/plugin/forms'
+const typography = require('windicss/plugin/typography')
+const forms = require('windicss/plugin/forms')
 
 module.exports = {
   darkMode: 'class',
