@@ -426,7 +426,7 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@mdx-js/mdx@^1.6.22":
+"@mdx-js/mdx@1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.22.tgz#8a723157bf90e78f17dc0f27995398e6c731f1ba"
   integrity sha512-AMxuLxPz2j5/6TpF/XSdKpQP1NlG0z11dFOlq+2IP/lSgl11GY8ji6S/rgsViN/L0BDvHvUMruRb7ub+24LUYA==
@@ -451,7 +451,7 @@
     unist-builder "2.0.3"
     unist-util-visit "2.0.3"
 
-"@mdx-js/react@^1.6.22":
+"@mdx-js/react@1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.6.22.tgz#ae09b4744fddc74714ee9f9d6f17a66e77c43573"
   integrity sha512-TDoPum4SHdfPiGSAaRBw7ECyI8VaHpK8GJugbJIJuqyh6kzw9ZLJZW3HGL3NNrJGxcAixUvqROm+YuQOo5eXtg==
@@ -5877,10 +5877,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-valtio@0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/valtio/-/valtio-0.8.0.tgz#b3110b3ca986083c64b7813bddb80b663cc12a28"
-  integrity sha512-OqvkIv2QZG3XWbiLpTzfr6tv6GtauCLZsI2dMxhHzsxso980SvwBvHPWw0kGBkfMQhfFCwMBpQyI6JhUHBztBA==
+valtio@0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/valtio/-/valtio-0.8.2.tgz#479779b6f733d90a7a20b84d6b239492a1e41ecf"
+  integrity sha512-Nr3Vob6eD4h6/x00d560H6IQQ+3/CBDJGkK8x/A0QBadWwtjHYuOD08GJdxlAxQR7KVzdh02uYTTbkfza4LfqA==
   dependencies:
     proxy-compare "1.1.6"
 
@@ -5934,7 +5934,7 @@ vite-plugin-babel-macros@1.0.5:
     babel-plugin-macros "^3.0.1"
     tslib "^2.1.0"
 
-vite-plugin-mdx@^3.1.0:
+vite-plugin-mdx@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-3.1.0.tgz#8ee6c4077a38f27096e9cdf50333e1f39a76efaf"
   integrity sha512-yGOOlUlqwEPqiXMmWQ9mGAfK97p8u+Q5PEg9sf0nWfNL+qlE7HSSvpxHmkWNoqHH03hgHlrishHChWLonARrvQ==
