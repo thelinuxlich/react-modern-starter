@@ -8,7 +8,14 @@ import mdx from 'vite-plugin-mdx'
  * @type { import('vite').UserConfig }
  */
 export default {
-  plugins: [WindiCSS(), reactRefresh(), mdx(), macrosPlugin()],
+  plugins: [
+    WindiCSS({
+      safelist: 'prose prose-sm m-auto'
+    }),
+    reactRefresh(),
+    mdx(),
+    macrosPlugin()
+  ],
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }]
   }

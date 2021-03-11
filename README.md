@@ -7,7 +7,7 @@
 - [react-seo](https://github.com/americanexpress/react-seo) for SEO
 - [MDX](https://mdxjs.com/) for easy markdown files powered by React Components
 - [Valtio](https://github.com/pmndrs/valtio) for state management
-- [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack
+- [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack(typography and forms plugin builtin)
 - [Vite](https://vitejs.dev/guide/) for bundling
 - [uvu](https://github.com/lukeed/uvu) for testing
 - [linkedom](https://github.com/WebReflection/linkedom) for speedy simulation of the browser environment in uvu tests
