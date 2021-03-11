@@ -3,14 +3,14 @@ import React from 'react'
 const routes = []
 
 // a poor man's autorouting based on file structure. Home and NotFound components convention-based
-const modules = import.meta.globEager('./views/**/*.jsx')
+const modules = import.meta.globEager('./views/**/*')
 let NotFound = null
 let Home = null
 for (const path in modules) {
   const Mod = modules[path].default
   let exactPath = path
     .replace('./views', '')
-    .replace(/.js[x]?/, '')
+    .replace(/.(js|md)[x]+/, '')
     .toLowerCase()
   const _path = exactPath.split('/')
   const routeName = _path[_path.length - 1]

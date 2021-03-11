@@ -334,6 +334,18 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@brillout/libassert@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@brillout/libassert/-/libassert-0.3.0.tgz#ea5a72b8338ef96f7c4bb5c5ca9e2e8b62f7b87f"
+  integrity sha512-Sun0ozPpFTbFs1M6niqliH0R0Xtqdh1IljE6ygfuBQOLJiUUnb8B2hGcWnXQ6CSbFAoov5tAXg/+D6YXPtPkZQ==
+
+"@brillout/path-to-regexp@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@brillout/path-to-regexp/-/path-to-regexp-0.1.2.tgz#f6d415d3dc61c54e2ef59155a4df56e36c8eaf7f"
+  integrity sha512-hGwx0UhXfUmuQlzVv5799k1MkXh/Q6EOxUMDS0cf9iD2ZXMG6INUkkvK2I5rFRH0WD2bqnndnoN1dgaCRo8w7w==
+  dependencies:
+    path-to-regexp "^1.7.0"
+
 "@commitlint/execute-rule@^12.0.1":
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-12.0.1.tgz#5bb2eba929270cafb2bd8191799d8b451de7fb7e"
@@ -1598,6 +1610,11 @@ detect-newline@^3.0.0, detect-newline@^3.1.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
+devalue@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-2.0.1.tgz#5d368f9adc0928e47b77eea53ca60d2f346f9762"
+  integrity sha512-I2TiqT5iWBEyB8GRfTDP0hiLZ0YeDJZ+upDxjBfOC2lebO5LezQMv7QvIUTzdb64jQyAKLf1AHADtGN+jw6v8Q==
+
 diff@4.0.2, diff@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
@@ -1887,6 +1904,11 @@ eslint@^6.8.0:
     table "^5.2.3"
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
+
+esm@^3.2.25:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
 espree@^6.1.2:
   version "6.2.1"
@@ -5941,7 +5963,17 @@ vite-plugin-mdx@3.1.0:
   dependencies:
     esbuild "^0.8.31"
 
-vite-plugin-windicss@0.8.2:
+vite-plugin-ssr@^0.1.0-beta.11:
+  version "0.1.0-beta.11"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.0-beta.11.tgz#8ed0905498203ab14dd67769a303e9924144b191"
+  integrity sha512-AJXRHs3HOWOVNWtMULNOWSgJPrAGyv6QHCED+yVJyWQ4PvW5B0xlyOso6Z79WYX6BLXSzz59RPn2dUafi9okjw==
+  dependencies:
+    "@brillout/libassert" "^0.3.0"
+    "@brillout/path-to-regexp" "^0.1.2"
+    devalue "^2.0.1"
+    fast-glob "^3.2.5"
+
+vite-plugin-windicss@^0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.8.2.tgz#cb7a4e03ed218007425be60e54cd4f21cca836d1"
   integrity sha512-eeHmCAbmeKg1k0r5moPEQrVPFebfsCCGkKUSb8MYWkglLfpcBZfCHyTTdpn/PONy/JcvWrdpbND2/tsy30it3g==

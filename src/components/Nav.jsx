@@ -1,15 +1,16 @@
 import React from 'react'
 import state from '../store/root'
-import { useProxy } from 'valtio/macro'
+import { useSnapshot } from 'valtio'
 import { Link, useLocation } from 'react-router-dom'
 
 const Nav = () => {
   const location = useLocation()
-  useProxy(state)
+  const snap = useSnapshot(state)
 
   const links = [
     { text: 'Home', to: '/' },
-    { text: 'About', to: '/about' }
+    { text: 'About', to: '/about' },
+    { text: 'Hello MDX', to: '/hello' }
   ]
 
   const activeClass = 'text-white bg-gray-900'
@@ -86,7 +87,7 @@ const Nav = () => {
                     />
                   </button>
                 </div>
-                {state.showProfileMenu && (
+                {snap.showProfileMenu && (
                   <div className='origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5'>
                     <div
                       className='py-1 rounded-md bg-white shadow-xs'
@@ -161,7 +162,7 @@ const Nav = () => {
       </div>
 
       {/* Menu open: "block", Menu closed: "hidden" */}
-      <div className={`md:hidden ${state.showMenu ? 'block' : 'hidden'}`}>
+      <div className={`md:hidden ${snap.showMenu ? 'block' : 'hidden'}`}>
         <div className='px-2 pt-2 pb-3 sm:px-3'>
           {links.map((link, i) => (
             <Link

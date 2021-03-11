@@ -4,14 +4,13 @@
   "license": "MIT",
   "scripts": {
     "standup": "git-standup",
-    "dev": "vite --port 3333",
+    "dev": "vite --port 4000",
     "format": "prettier-standard --format",
-    "dev:serve": "SSR_PORT=3334 node server",
     "build": "yarn build:client && yarn build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
     "generate": "vite build --outDir dist/static && yarn build:server && node prerender",
-    "serve": "cross-env NODE_ENV=production SSR_PORT=3334 node server",
+    "serve": "cross-env NODE_ENV=production SSR_PORT=4001 node -r esm server",
     "test": "c8 uvu tests -r esbuild-register -i setup"
   },
   "lint-staged": {
@@ -39,6 +38,7 @@
     "esbuild-register": "2.2.0",
     "eslint": "7.21.0",
     "eslint-plugin-valtio": "0.3.1",
+    "esm": "^3.2.25",
     "git-notify": "0.2.3",
     "git-standup": "2.3.2",
     "husky": "4.3.8",
@@ -51,7 +51,8 @@
     "vite": "2.0.5",
     "vite-plugin-babel-macros": "1.0.5",
     "vite-plugin-mdx": "3.1.0",
-    "vite-plugin-windicss": "0.8.2"
+    "vite-plugin-ssr": "^0.1.0-beta.11",
+    "vite-plugin-windicss": "^0.8.2"
   },
   "husky": {
     "hooks": {
