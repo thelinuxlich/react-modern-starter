@@ -5,6 +5,7 @@
 - [React](https://reactjs.org/docs/getting-started.html) for rendering
 - [React Router](https://reactrouter.com/web/guides/quick-start) for routing
 - [react-seo](https://github.com/americanexpress/react-seo) for SEO
+- [MDX](https://mdxjs.com/) for easy markdown files powered by React Components
 - [Valtio](https://github.com/pmndrs/valtio) for state management
 - [WindyCSS](https://github.com/voorjaar/windicss/wiki/Introduction) for easy bundling TailwindCSS into the stack
 - [Vite](https://vitejs.dev/guide/) for bundling
