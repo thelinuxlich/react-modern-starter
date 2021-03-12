@@ -38,7 +38,7 @@
     "esbuild-register": "2.2.0",
     "eslint": "7.21.0",
     "eslint-plugin-valtio": "0.3.1",
-    "esm": "^3.2.25",
+    "esm": "3.2.25",
     "git-notify": "0.2.3",
     "git-standup": "2.3.2",
     "husky": "4.3.8",
@@ -51,8 +51,8 @@
     "vite": "2.0.5",
     "vite-plugin-babel-macros": "1.0.5",
     "vite-plugin-mdx": "3.1.1",
-    "vite-plugin-ssr": "^0.1.0-beta.11",
-    "vite-plugin-windicss": "^0.8.2"
+    "vite-plugin-ssr": "0.1.0-beta.11",
+    "vite-plugin-windicss": "0.8.2"
   },
   "husky": {
     "hooks": {
