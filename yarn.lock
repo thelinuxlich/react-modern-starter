@@ -5968,10 +5968,10 @@ vite-plugin-babel-macros@1.0.5:
     babel-plugin-macros "^3.0.1"
     tslib "^2.1.0"
 
-vite-plugin-mdx@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-3.1.1.tgz#b14a2045cd496f06bc7391f771f0867514cf2441"
-  integrity sha512-nG1Idm4dOavNB0Mo/ONyykThPgcSOI/oUeYaKIgDDgcUbMGu/VnwzAvs7w1hiMyE8IakYaTqAZ9wqKeKsUBdEw==
+vite-plugin-mdx@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-3.2.2.tgz#cba29294e64f7107c86b4c41c8505303b6201359"
+  integrity sha512-yNXsIDlQUldZBdtBXFmPFGINj1x4IJmbgg+i2j8/FU1XfwKCMr15v/ArUOYyGldsKw/Fq7DVn2ASwSyICphwgQ==
   dependencies:
     esbuild "^0.8.31"
     find-dependency "^1.3.0"
