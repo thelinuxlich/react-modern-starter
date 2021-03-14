@@ -18,6 +18,7 @@
 - [Renovate](https://github.com/renovatebot/renovate) for automated dependency updates
 - [git-notify](https://github.com/jevakallio/git-notify) for communicating important updates during git pull to your team
 - [git-standup](https://github.com/kamranahmedse/git-standup) to recall what you did yesterday
+- [release-it](https://github.com/release-it/release-it) to release new versions of your project
 - Github Actions CI preconfigured for running lint + tests
 - SSR/SSG builtin
 - Rudimentary autorouting based on directory convention(similar to Next.js)
@@ -40,3 +41,4 @@
 - yarn generate (bundle static SSR/SSG)
 - yarn serve (preview the production bundle(SSR))
 - yarn test (run the test suite and generate code coverage)
+- yarn release (use release-it to release a new version)
