@@ -12,7 +12,7 @@
     "generate": "vite build --outDir dist/static && yarn build:server && node prerender",
     "serve": "cross-env NODE_ENV=production SSR_PORT=4001 node -r esm server",
     "test": "c8 uvu tests -r esbuild-register -i setup",
-    "release": "release-it"
+    "release": "HUSKY_SKIP_HOOKS=1 release-it"
   },
   "lint-staged": {
     "*": "prettier-standard --lint"
