@@ -4,5 +4,8 @@
       "in": "package.json",
       "out": "package.json"
     }
+  },
+  "git": {
+    "requireCleanWorkingDir": false
   }
 }
