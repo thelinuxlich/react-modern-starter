@@ -17,6 +17,9 @@
   "lint-staged": {
     "*": "prettier-standard --lint"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@americanexpress/react-seo": "1.4.1",
     "express": "4.17.1",
