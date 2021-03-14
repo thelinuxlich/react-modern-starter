@@ -27,18 +27,18 @@
 ## Setup
 
 - Clone to local
-- cd react-modern-starter
-- yarn
+- `cd react-modern-starter`
+- `yarn`
 
 ## Tasks
 
-- yarn standup (receive a pretty list of things you did on your last working day)
-- yarn dev (standard dev server)
-- yarn format (format the codebase following prettier-standard rules)
-- yarn build (bundle client and server(SSR) for production)
-- yarn build:client (bundle client for production)
-- yarn build:server (bundle server(SSR) for production)
-- yarn generate (bundle static SSR/SSG)
-- yarn serve (preview the production bundle(SSR))
-- yarn test (run the test suite and generate code coverage)
-- npm run release (use release-it to release a new version, remember to first run `npm login`)
+- `yarn standup` (receive a pretty list of things you did on your last working day)
+- `yarn dev` (standard dev server)
+- `yarn format` (format the codebase following prettier-standard rules)
+- `yarn build` (bundle client and server(SSR) for production)
+- `yarn build:client` (bundle client for production)
+- `yarn build:server` (bundle server(SSR) for production)
+- `yarn generate` (bundle static SSR/SSG)
+- `yarn serve` (preview the production bundle(SSR))
+- `yarn test` (run the test suite and generate code coverage)
+- `npm run release` (use `release-it` to release a new version, remember to first run `npm login`)
