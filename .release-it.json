@@ -1,8 +1,8 @@
 {
-  "plugins": {
-    "@release-it/bumper": {
-      "in": "package.json",
-      "out": "package.json"
-    }
+  "git": {
+    "commitMessage": "chore: release v${version}"
+  },
+  "github": {
+    "release": true
   }
 }
