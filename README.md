@@ -41,4 +41,4 @@
 - yarn generate (bundle static SSR/SSG)
 - yarn serve (preview the production bundle(SSR))
 - yarn test (run the test suite and generate code coverage)
-- yarn release (use release-it to release a new version)
+- yarn release (use release-it to release a new version, remember to first run `yarn login`)
