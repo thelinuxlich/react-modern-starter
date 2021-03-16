@@ -5,7 +5,7 @@
   "scripts": {
     "standup": "git-standup",
     "dev": "vite --port 4000",
-    "format": "prettier-standard --format",
+    "format": "prettier-standard --format '**/*.{js,css,jsx}'",
     "build": "yarn build:client && yarn build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
