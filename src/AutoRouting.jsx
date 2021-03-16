@@ -10,7 +10,7 @@ for (const path in modules) {
   const Mod = modules[path].default
   let exactPath = path
     .replace('./views', '')
-    .replace(/.(js|md)[x]+/, '')
+    .replace(/.(js|md)[x]?/, '')
     .toLowerCase()
   const _path = exactPath.split('/')
   const routeName = _path[_path.length - 1]
@@ -21,42 +21,28 @@ for (const path in modules) {
   } else if (_path.length > 2 && routeName === 'index') {
     exactPath = exactPath.replace('index', '')
     routes.push(
-      <Route exact path={exactPath} key={exactPath}>
-        <Mod />
-      </Route>
+      <Route exact path={exactPath} key={exactPath} component={Mod} />
     )
   } else if (_path.length > 2 && routeName === '[id]') {
     exactPath = exactPath.replace('[id]', '')
     routes.push(
-      <Route path={`${exactPath}:id`} key={`${exactPath}:id`}>
-        <Mod />
-      </Route>
+      <Route path={`${exactPath}:id`} key={`${exactPath}:id`} component={Mod} />
     )
   } else {
     routes.push(
-      <Route exact path={exactPath} key={exactPath}>
-        <Mod />
-      </Route>
+      <Route exact path={exactPath} key={exactPath} component={Mod} />
     )
   }
 }
 
 // first route should be the Home component, if it exists
 if (Home) {
-  routes.unshift(
-    <Route exact path='/' key='home'>
-      <Home />
-    </Route>
-  )
+  routes.unshift(<Route exact path='/' key='home' component={Home} />)
 }
 
 // last route should be the NotFound component, if it exists
 if (NotFound) {
-  routes.push(
-    <Route key='notfound'>
-      <NotFound />
-    </Route>
-  )
+  routes.push(<Route key='notfound' component={NotFound} />)
 }
 
 export default routes
