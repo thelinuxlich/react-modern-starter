@@ -15,7 +15,7 @@
     "release": "HUSKY_SKIP_HOOKS=1 release-it"
   },
   "lint-staged": {
-    "*.(js|md)[x]?": "prettier-standard --lint"
+    "*.{js,css,jsx}": "prettier-standard --lint"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
