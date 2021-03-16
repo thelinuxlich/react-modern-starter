@@ -34,7 +34,7 @@
 
 - `yarn standup` (receive a pretty list of things you did on your last working day)
 - `yarn dev` (standard dev server)
-- `yarn format` (format the codebase following prettier-standard rules)
+- `yarn format` (format and lint the codebase following prettier-standard rules)
 - `yarn build` (bundle client and server(SSR) for production)
 - `yarn build:client` (bundle client for production)
 - `yarn build:server` (bundle server(SSR) for production)
