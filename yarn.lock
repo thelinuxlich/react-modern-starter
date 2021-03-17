@@ -7010,10 +7010,10 @@ vite-plugin-mdx@3.2.2:
     esbuild "^0.8.31"
     find-dependency "^1.3.0"
 
-vite-plugin-ssr@0.1.0-beta.13:
-  version "0.1.0-beta.13"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.0-beta.13.tgz#f21cc50c55be8b2ac5d5d4c77f8522f0dc0dc371"
-  integrity sha512-UiFdtXJyBd4cpvMFi/o9SPbJPyWGF/nNy2RAXDsaZzYYF/D/UuaCGQzW7BBT5JfrFZIi3IgwKyedUey9sWIUKQ==
+vite-plugin-ssr@0.1.0-beta.14:
+  version "0.1.0-beta.14"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.0-beta.14.tgz#dd99744c6f6b38b076da899e88e7163eafb60c8d"
+  integrity sha512-bEHI/mBkdmG1PKlQmkyT8Aiu/vluRRUhpod9hjIFseBRXtWsi2tBB33RFqwrMGXtFU0dupKKrveU1tqn2YgBng==
   dependencies:
     "@brillout/libassert" "^0.3.0"
     "@brillout/path-to-regexp" "^0.1.2"
