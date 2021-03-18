@@ -351,6 +351,11 @@
   dependencies:
     path-to-regexp "^1.7.0"
 
+"@brillout/vite-fix-2390@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@brillout/vite-fix-2390/-/vite-fix-2390-0.1.3.tgz#e4f1ec53660369ca9ed4cf1f764e00041047d8d7"
+  integrity sha512-xP8Zs3NKSQ6EuvJf2MVPb9eg7e8oWyybDbHclT4pyRgJoqMaYpFKJUJhq6KqaC7+xBPRe5QbS9PdVb1MZCWtWQ==
+
 "@commitlint/execute-rule@^12.0.1":
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-12.0.1.tgz#5bb2eba929270cafb2bd8191799d8b451de7fb7e"
@@ -7010,13 +7015,14 @@ vite-plugin-mdx@3.2.2:
     esbuild "^0.8.31"
     find-dependency "^1.3.0"
 
-vite-plugin-ssr@0.1.0-beta.14:
-  version "0.1.0-beta.14"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.0-beta.14.tgz#dd99744c6f6b38b076da899e88e7163eafb60c8d"
-  integrity sha512-bEHI/mBkdmG1PKlQmkyT8Aiu/vluRRUhpod9hjIFseBRXtWsi2tBB33RFqwrMGXtFU0dupKKrveU1tqn2YgBng==
+vite-plugin-ssr@0.1.0-lab-patch:
+  version "0.1.0-lab-patch"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.0-lab-patch.tgz#9d7b7e7008110b7199b527efecf41801e5344c4b"
+  integrity sha512-TasEDDmP2TGmiHfiDC2I+X0aObryko3WhAWjASRD2xP/Q9H9whN/9b4xaws+eMqsNy76bEGw+e0sQVVql1SN+g==
   dependencies:
     "@brillout/libassert" "^0.3.0"
     "@brillout/path-to-regexp" "^0.1.2"
+    "@brillout/vite-fix-2390" "^0.1.2"
     devalue "^2.0.1"
     fast-glob "^3.2.5"
 
