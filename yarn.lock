@@ -724,16 +724,16 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     react-refresh "^0.9.0"
 
-"@windicss/plugin-utils@0.9.5":
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.9.5.tgz#b74faeefb8a0039ef32503678e615ff3e2696cf1"
-  integrity sha512-7nu7/xE+PLKHOJrX3gf061kfbKFTH/SbYKoly9mGjlsvJZUuCdN0Zqu6HkVnalVkW4D721/L9rtsR65QaMgD7A==
+"@windicss/plugin-utils@0.9.6":
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.9.6.tgz#89e4709bc48c9eb03c2484054f519560791ccafa"
+  integrity sha512-rpuRPjndF5GR2BZFaISGAwe6DHii16Cfs0/003El6vBxQbWpL75BslfNYeJKAhnRfkqfPxcq4lybxHGWmvsaug==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
     micromatch "^4.0.2"
     sucrase "^3.17.1"
-    windicss "^2.5.2"
+    windicss "^2.5.4"
 
 accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -6980,14 +6980,14 @@ vite-plugin-ssr@0.1.0-beta.17:
     fast-glob "^3.2.5"
     kolorist "^1.3.2"
 
-vite-plugin-windicss@0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.9.5.tgz#319c7ad4982ac1fe635b1d40a1d5174e0e5a01e7"
-  integrity sha512-5x/Y0bviBdBXmui5TpUEgRSoygGozTJ2/H+hTPjjG2pNdyCFspWNLi6+ohPT68lKy85cJVzmm97M4Gyw06x7Tw==
+vite-plugin-windicss@0.9.6:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.9.6.tgz#8c1b55e365ef311296e0db427ed358b5b46247b1"
+  integrity sha512-vNyPTuVyCV34slkbzaARvMOCC93ueuP0bw0ETyoUduCwIjP2NwI9C88b3LneVM46TAEDIzHtlTJjkq+APADVOA==
   dependencies:
-    "@windicss/plugin-utils" "0.9.5"
+    "@windicss/plugin-utils" "0.9.6"
     debug "^4.3.2"
-    windicss "^2.5.2"
+    windicss "^2.5.4"
 
 vite@2.1.2:
   version "2.1.2"
@@ -7043,10 +7043,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-windicss@^2.5.2:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.2.tgz#831858fe45edbf8400d5e8c6b9275fa3ffffcb2f"
-  integrity sha512-WzynOx1rQGzgUq62wqyWjUzOEPArwP8oeWyLqymiF54LSFC7f0oIYXR01bxY/y6OK2wODyK/OuwahPNAsseqqg==
+windicss@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.4.tgz#e89cd614cc4a7c2c13cc5af588642959de6746db"
+  integrity sha512-K+w/TOxbY38bIjRyJVgQ29ndZ0xZsbpf4a7wClqyFDQdCTbuCnzChBMpO13BqLmksIaHRzL46TeBRpFyV6n5/A==
 
 windows-release@^4.0.0:
   version "4.0.0"
