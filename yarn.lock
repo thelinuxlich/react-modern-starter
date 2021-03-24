@@ -3931,10 +3931,10 @@ linguist-languages@7.6.0:
   resolved "https://registry.yarnpkg.com/linguist-languages/-/linguist-languages-7.6.0.tgz#6e3d9aa7a98ddf5299f8115788dce8deb8a97c9d"
   integrity sha512-DBZPIWjrQmb/52UlSEN8MTiwwugrAh4NBX9/DyIG8IuO8rDLYDRM+KVPbuiPVKd3ResxYtZB5AiSuc8dTzOSog==
 
-linkedom@0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/linkedom/-/linkedom-0.5.6.tgz#2c058dac9476b9b8ef1886ae8f0d495e3e6606e4"
-  integrity sha512-6PLYvs7memANEiA7aqzI6hPfi0yRJwup8uwp8yviCyQLu1hdvdlkULYATA4G/y/kMEpgGPnIQ57mTL5/0TylZw==
+linkedom@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/linkedom/-/linkedom-0.6.1.tgz#6edccdd94bd12a6559f6420e515854ea59428e64"
+  integrity sha512-CgzDmVQhG369NJzih7mh9uxq28oJVvmK1qD8Wh2Dy1XkyTCoFxjwJ+DqTWWiB3ag1Vv6j0faTD+L+LqAle769g==
   dependencies:
     "@ungap/event-target" "^0.2.2"
     css-select "^3.1.2"
