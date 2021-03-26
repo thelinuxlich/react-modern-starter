@@ -1,6 +1,6 @@
 {
   "name": "react-modern-starter",
-  "version": "1.0.0-beta-14",
+  "version": "1.0.0-beta-14.0",
   "license": "MIT",
   "scripts": {
     "standup": "git-standup",
