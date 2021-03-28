@@ -729,16 +729,18 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     react-refresh "^0.9.0"
 
-"@windicss/plugin-utils@0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.10.2.tgz#d4a79c41f02c1704b54510a2bd2deaa43c905a7d"
-  integrity sha512-IeKaZEZ1Ww3KO5C3AxWLotMX3aGxhrj0MsTmiyMS1H5KXm6HOgfk+zsRiB0ysxGKrGZ4pMLe2H3Riku8o7YfuQ==
+"@windicss/plugin-utils@0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.10.4.tgz#ed9163b09e030f7358cc4742b1f2b6c92d084d5d"
+  integrity sha512-jQu69qzA56Lv18OK8U4mUTDV17st4EdPawQuaRG2VNK+ZEQWYsMNnqGxhzDTl/NhWTGCcTb3D6mlFPNo0QDOFg==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
+    magic-string "^0.25.7"
     micromatch "^4.0.2"
+    pirates "^4.0.1"
     sucrase "^3.17.1"
-    windicss "^2.5.5"
+    windicss "^2.5.7"
 
 accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -4176,6 +4178,13 @@ macos-release@^2.2.0:
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.4.1.tgz#64033d0ec6a5e6375155a74b1a1eba8e509820ac"
   integrity sha512-H/QHeBIN1fIGJX517pvK8IEK53yQOW7YcEI55oYtgjDdoCQQz7eJS94qt5kNrscReEyuD/JcdFCm2XBEcGOITg==
 
+magic-string@^0.25.7:
+  version "0.25.7"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
+  integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
+  dependencies:
+    sourcemap-codec "^1.4.4"
+
 make-dir@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
@@ -6137,6 +6146,11 @@ source-map@^0.7.3:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
+sourcemap-codec@^1.4.4:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
+  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
+
 space-separated-tokens@^1.0.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz#85f32c3d10d9682007e917414ddc5c26d1aa6899"
@@ -6986,15 +7000,15 @@ vite-plugin-ssr@0.1.0-beta.21:
     fast-glob "^3.2.5"
     kolorist "^1.3.2"
 
-vite-plugin-windicss@0.10.2:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.10.2.tgz#126edae552f2bec22273f5f533806e2b5d61c8ff"
-  integrity sha512-+kgzjwW6VNFlMlQvN4C5iCIqCAhSmTLteVz9IA7LjnpyM6X4tpZmWiTiNlLzAeiJt1eUpu9lFcA7GfuZR+OQDA==
+vite-plugin-windicss@0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.10.4.tgz#e93577111ea0a55befbe4e2aa2e596f55f6b74b2"
+  integrity sha512-P7alH2dGGw3OTgjs9yZG2w0i+o1HKD8PChwhm2ftP+lLCe1xDL3LReheuRil9p2xPYzrVouER2YTbIdLUEThrQ==
   dependencies:
-    "@windicss/plugin-utils" "0.10.2"
+    "@windicss/plugin-utils" "0.10.4"
     chalk "^4.1.0"
     debug "^4.3.2"
-    windicss "^2.5.5"
+    windicss "^2.5.7"
 
 vite@2.1.3:
   version "2.1.3"
@@ -7050,10 +7064,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-windicss@^2.5.5:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.5.tgz#691cc08e13dc9ee41293cd20cfdb6fed101e1d6a"
-  integrity sha512-tKLYY9qQoFKoxitG2B8toa9QUPAjsBOKjmFrxhDi2i0eaVOFQh+YEPElBCa7N5ma03YVIW9HPVbgVU0Z4JxZ5g==
+windicss@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.7.tgz#aea36568cfb412e1c673468496e920f21ef06086"
+  integrity sha512-gsWZkotmw9Hr7yZy2nJAp46pmgMO1wXFFa3rfLWm57KDM31U/AucksQnwZi7zxsKM9c6O/z/61/Uvv4J096zKA==
 
 windows-release@^4.0.0:
   version "4.0.0"
