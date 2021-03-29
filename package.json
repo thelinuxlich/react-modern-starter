@@ -57,7 +57,7 @@
     "vite-plugin-babel-macros": "1.0.5",
     "vite-plugin-mdx": "3.2.2",
     "vite-plugin-ssr": "0.1.0-beta.23",
-    "vite-plugin-windicss": "0.10.4"
+    "vite-plugin-windicss": "0.11.0"
   },
   "husky": {
     "hooks": {
