@@ -2034,10 +2034,10 @@ esbuild-register@2.3.0:
     esbuild "^0.9.2"
     jsonc-parser "^3.0.0"
 
-esbuild@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.0.tgz#1a54ab199a144af76fee1399702efa11be99d31f"
-  integrity sha512-soxN5dic/pDMM0LKLUKmpOY/MVfF+6n3RHLS2ez0YQoM0dmd2tTs/hmAC4pxfhm2Pvn/28UtMJyFedRYC+8olA==
+esbuild@0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.2.tgz#3b995e107f2054d9090402b98a3b79ceffd05eb6"
+  integrity sha512-8d5FCQrR+juXC2u9zjTQ3+IYiuFuaWyKYwmApFJLquTrYNbk36H/+MkRQeTuOJg7IjUchRX2Ulwo1zRYXZ1pUg==
 
 esbuild@^0.8.31:
   version "0.8.57"
