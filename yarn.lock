@@ -729,10 +729,10 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.13"
     react-refresh "^0.9.0"
 
-"@windicss/plugin-utils@0.11.2":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.11.2.tgz#989a5db170fb22c53804c3f67d1ea9da0fd91a79"
-  integrity sha512-Kq9X0/INSOYzBHO/dgOJx3v2U/F+5/bv9IMCW/ABDLwyZbY1fUuGuHgO5e0CHL79F/zTpxxSv+fAAVyiKAY1Eg==
+"@windicss/plugin-utils@0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.11.4.tgz#0c60515fccec2149cd0286e9b433ec3a6feb425b"
+  integrity sha512-WYdz/0hdX5rgdKR+72dWOyPX1IevVGH0qPZvRi5MBgEgB1MDSy2K2lah053KzyXCYgprGpmtrPjnt0ENejsOPg==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
@@ -740,7 +740,7 @@
     micromatch "^4.0.2"
     pirates "^4.0.1"
     sucrase "^3.17.1"
-    windicss "^2.5.8"
+    windicss "^2.5.9"
 
 accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -7000,15 +7000,15 @@ vite-plugin-ssr@0.1.0-beta.26:
     fast-glob "^3.2.5"
     kolorist "^1.3.2"
 
-vite-plugin-windicss@0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.11.2.tgz#d711638ec39e55a22a1dddebe6067bdfd1d7d03a"
-  integrity sha512-BtgDL/wUygdl+zo0eIAfXG+jz+sXAMoBHyNUrof4oA037aI/BY0s68VSUlWeOqv0lnT7HhMeg5jyJodS50RPZw==
+vite-plugin-windicss@0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.11.4.tgz#cde87eba7be66ef1e29f14f2896a995d9430995e"
+  integrity sha512-xGRaeXN6bR6QQceGcoIxfJCPvy+wCWR0ymHdjrYQr19LInEkL0lzvJwQkj51t5T8+56Xc7XsvSMb6HbJ1RERqA==
   dependencies:
-    "@windicss/plugin-utils" "0.11.2"
+    "@windicss/plugin-utils" "0.11.4"
     chalk "^4.1.0"
     debug "^4.3.2"
-    windicss "^2.5.8"
+    windicss "^2.5.9"
 
 vite@2.1.5:
   version "2.1.5"
@@ -7064,10 +7064,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-windicss@^2.5.8:
-  version "2.5.8"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.8.tgz#254980044de3031276062b90cfce53c13ee489bf"
-  integrity sha512-zHkozdIqv1YTIGHBOHeFGsuZVTN5yAMz6FW5Bp8im9JZxSRZLOLKdJB0K75SL13iLHKXHrC1ukwJjjL8CohrUw==
+windicss@^2.5.9:
+  version "2.5.9"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.9.tgz#167811594e1d791839c58f2a97762f114499b1ca"
+  integrity sha512-nldl2eVxK2qLwYLhh1/+fnvT8lhxckQp8cK+Gd8nPAjJOnuvWogNiQZ/9h1jTMAkYWxWUrxT5mhP3F0Klxa99Q==
 
 windows-release@^4.0.0:
   version "4.0.0"
