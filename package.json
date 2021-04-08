@@ -1,6 +1,6 @@
 {
   "name": "react-modern-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "standup": "git-standup",
@@ -74,7 +74,10 @@
     }
   },
   "release": {
-    "branches": ["master", "main"],
+    "branches": [
+      "master",
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",

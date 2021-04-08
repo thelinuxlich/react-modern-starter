@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/thelinuxlich/react-modern-starter/compare/v1.0.0...v1.0.1) (2021-04-08)
+
+
+### Bug Fixes
+
+* add semantic-release github plugin ([4a40c90](https://github.com/thelinuxlich/react-modern-starter/commit/4a40c905c662eade574605091adc57c6ab4b8d83))
+
 # 1.0.0 (2021-04-08)
 
 
