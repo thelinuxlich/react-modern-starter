@@ -39,7 +39,7 @@
     "compression": "1.7.4",
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
-    "esbuild": "0.11.8",
+    "esbuild": "0.11.10",
     "esbuild-register": "2.4.0",
     "eslint": "7.24.0",
     "eslint-plugin-valtio": "0.3.1",
