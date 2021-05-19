@@ -53,7 +53,7 @@
     "prettier-standard": "16.4.1",
     "serve-static": "1.14.1",
     "uvu": "0.5.1",
-    "vite": "2.1.5",
+    "vite": "2.3.3",
     "vite-plugin-babel-macros": "1.0.5",
     "vite-plugin-mdx": "3.5.5",
     "vite-plugin-ssr": "0.1.0-beta.31",
