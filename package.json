@@ -20,7 +20,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@americanexpress/react-seo": "1.4.1",
+    "@americanexpress/react-seo": "1.4.2",
     "express": "4.17.1",
     "global": "4.4.0",
     "react": "17.0.2",

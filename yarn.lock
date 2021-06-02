@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@americanexpress/react-seo@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@americanexpress/react-seo/-/react-seo-1.4.1.tgz#a64e2d76c104460898031229ffb1883718f00e02"
-  integrity sha512-iblg9jwhWeOmpSCRgrjpJqhm2gENgMod1Gam/AD/9V34KDuv5XW1YLJiyoPV9g/7kRkmTWUmgAq/qTOa2Hl9LQ==
+"@americanexpress/react-seo@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@americanexpress/react-seo/-/react-seo-1.4.2.tgz#2bde3c041baa0f633dfe2837d6de930b117450a0"
+  integrity sha512-VvJ8CyOoSXJOpVjNXOjh9s1YxwVl6wZvpV+6bY9HhkKcz9SV1TNECq9e875AIFqaLzX4kXq6VT8oG9YB5uK0ug==
   dependencies:
     prop-types "^15.7.2"
     react "^16.13.1"
