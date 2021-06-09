@@ -29,7 +29,7 @@
     "valtio": "1.0.5"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "7.12.13",
+    "@babel/plugin-syntax-jsx": "7.14.5",
     "@mdx-js/mdx": "2.0.0-next.9",
     "@mdx-js/react": "2.0.0-next.9",
     "@semantic-release/changelog": "5.0.1",
