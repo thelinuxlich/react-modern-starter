@@ -5048,10 +5048,10 @@ proxy-addr@~2.0.5:
     forwarded "~0.1.2"
     ipaddr.js "1.9.1"
 
-proxy-compare@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/proxy-compare/-/proxy-compare-2.0.0.tgz#36f41114a25fcf359037308d12529183a9dc182c"
-  integrity sha512-xhJF1+vPCnu93QYva3Weii5ho1AeX5dsR/P5O7pzy9QLxeOgMSQNC8zDo0bGg9vtn61Pu5Qn+5w/Y8OSU5k+8g==
+proxy-compare@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/proxy-compare/-/proxy-compare-2.0.2.tgz#343e624d0ec399dfbe575f1d365d4fa042c9fc69"
+  integrity sha512-3qUXJBariEj3eO90M3Rgqq3+/P5Efl0t/dl9g/1uVzIQmO3M+ql4hvNH3mYdu8H+1zcKv07YvL55tsY74jmH1A==
 
 pseudomap@^1.0.2:
   version "1.0.2"
@@ -6485,12 +6485,12 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-valtio@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/valtio/-/valtio-1.0.5.tgz#854ce6835e9263dd9f66aaa63d83b94b075f6775"
-  integrity sha512-SysrWAVeV0OZCVQwBsOil5/kvACY4HshFMw9hT+TzGtGP3WEbMpFqAlagZ0ikv4E0rPHcBKCcvDTj5VBeyquaw==
+valtio@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/valtio/-/valtio-1.2.3.tgz#988aac4aac70e6749cfb9e7c5060eac3851cee9f"
+  integrity sha512-ci74EjmFwSoF4jLugz3I0BmSAK9S0+splzikIDdKuixPBkAFt+ez4KNKLiS6kihGe6L0vTyEgm/oDutXrPlKpA==
   dependencies:
-    proxy-compare "2.0.0"
+    proxy-compare "2.0.2"
 
 value-equal@^1.0.1:
   version "1.0.1"
