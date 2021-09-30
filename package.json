@@ -48,7 +48,7 @@
     "git-standup": "2.3.2",
     "husky": "4.3.8",
     "linkedom": "0.12.1",
-    "lint-staged": "11.0.0",
+    "lint-staged": "11.1.2",
     "prettier": "2.4.1",
     "prettier-standard": "16.4.1",
     "serve-static": "1.14.1",
