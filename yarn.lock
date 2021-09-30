@@ -2223,11 +2223,6 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-find-dependency@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/find-dependency/-/find-dependency-1.3.0.tgz#36e1d47e6978772c6e3e9145d2d3f8b65b2b0718"
-  integrity sha512-3/jC4BIM4WvzO1b5m2QC1KPudgqcpTGGOA9lKMhQ9RUhGEvtS5oUGU2JlFWhhuFUK1I4MhrL66amf0qxkxhoIQ==
-
 find-node-modules@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/find-node-modules/-/find-node-modules-2.0.0.tgz#5db1fb9e668a3d451db3d618cd167cdd59e41b69"
@@ -5049,7 +5044,7 @@ resolve@1.15.1:
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.10.0, resolve@^1.17.0, resolve@^1.19.0:
+resolve@^1.10.0, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -6150,14 +6145,14 @@ vite-plugin-babel-macros@1.0.5:
     babel-plugin-macros "^3.0.1"
     tslib "^2.1.0"
 
-vite-plugin-mdx@3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-3.5.5.tgz#eb1bb4551f0a7f88a1ad759418532d2c7a51a70a"
-  integrity sha512-/5VKYHss6rlM7VlKfm7is6/bWE3FcKmie3p8GGYcuhWHkFtC4nxnFz+sfO+bim1LPz03ND11nZwab61b1ZbKQw==
+vite-plugin-mdx@3.5.6:
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-3.5.6.tgz#3366ec761c7881ffab3168bc0f7c8692e1f1e05e"
+  integrity sha512-KRc6/MN/ZSJEv3PxfPEM3p5NRAnhknK9RO3h86GqOcFCCaaB88WpsLxBWPqg5cWoI3uJm+Fp/ZGfs1Fd7cQnSw==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     esbuild "^0.8.31"
-    find-dependency "^1.3.0"
+    resolve "^1.20.0"
     unified "^9.2.1"
 
 vite-plugin-ssr@0.2.1:
