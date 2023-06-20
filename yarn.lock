@@ -6294,11 +6294,6 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-totalist@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/totalist/-/totalist-2.0.0.tgz#db6f1e19c0fa63e71339bbb8fba89653c18c7eec"
-  integrity sha512-+Y17F0YzxfACxTyjfhnJQEe7afPA0GSpYlFkl2VFMxYP7jshQf9gXV7cH47EfToBumFThfKBvfAcoUn6fdNeRQ==
-
 tree-kill@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
@@ -6616,16 +6611,15 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uvu@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.5.1.tgz#938b85f96b8a478e585363ad1849933b6c481b28"
-  integrity sha512-JGxttnOGDFs77FaZ0yMUHIzczzQ5R1IlDeNW6Wymw6gAscwMdAffVOP6TlxLIfReZyK8tahoGwWZaTCJzNFDkg==
+uvu@0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/uvu/-/uvu-0.5.6.tgz#2754ca20bcb0bb59b64e9985e84d2e81058502df"
+  integrity sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==
   dependencies:
     dequal "^2.0.0"
     diff "^5.0.0"
     kleur "^4.0.3"
     sade "^1.7.3"
-    totalist "^2.0.0"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
