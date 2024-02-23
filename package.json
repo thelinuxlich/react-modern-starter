@@ -41,7 +41,7 @@
     "cz-conventional-changelog": "3.3.0",
     "esbuild": "0.13.3",
     "esbuild-register": "3.0.0",
-    "eslint": "7.32.0",
+    "eslint": "8.57.0",
     "eslint-plugin-valtio": "0.4.1",
     "esm": "3.2.25",
     "git-notify": "0.2.3",
