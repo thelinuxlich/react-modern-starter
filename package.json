@@ -1,0 +1,98 @@
+{
+  "name": "react-modern-starter",
+  "version": "1.0.5",
+  "license": "MIT",
+  "scripts": {
+    "standup": "git-standup",
+    "dev": "vite --port 4000",
+    "format": "prettier-standard --lint '**/*.{js,css,jsx}'",
+    "build": "yarn build:client && yarn build:server",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
+    "generate": "vite build --outDir dist/static && yarn build:server && node prerender",
+    "serve": "cross-env NODE_ENV=production SSR_PORT=4001 node -r esm server",
+    "test": "c8 uvu tests -r esbuild-register -i setup"
+  },
+  "lint-staged": {
+    "*.{js,css,jsx}": "prettier-standard --lint"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@americanexpress/react-seo": "1.4.2",
+    "express": "4.17.1",
+    "global": "4.4.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.3.0",
+    "valtio": "1.2.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "7.29.7",
+    "@mdx-js/mdx": "2.0.0-next.9",
+    "@mdx-js/react": "2.0.0-next.9",
+    "@semantic-release/changelog": "6.0.0",
+    "@vitejs/plugin-react-refresh": "1.3.6",
+    "@semantic-release/git": "10.0.0",
+    "c8": "7.9.0",
+    "compression": "1.7.4",
+    "cross-env": "7.0.3",
+    "cz-conventional-changelog": "3.3.0",
+    "esbuild": "0.13.3",
+    "esbuild-register": "3.0.0",
+    "eslint": "7.32.0",
+    "eslint-plugin-valtio": "0.4.1",
+    "esm": "3.2.25",
+    "git-notify": "0.2.3",
+    "git-standup": "2.3.2",
+    "husky": "7.0.2",
+    "linkedom": "0.12.1",
+    "lint-staged": "11.1.2",
+    "prettier": "2.4.1",
+    "prettier-standard": "16.4.1",
+    "serve-static": "1.14.1",
+    "uvu": "0.5.1",
+    "vite": "2.6.2",
+    "vite-plugin-babel-macros": "1.0.5",
+    "vite-plugin-mdx": "3.5.6",
+    "vite-plugin-ssr": "0.3.3",
+    "vite-plugin-windicss": "1.4.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "post-merge": "git-notify merge $HUSKY_GIT_PARAMS",
+      "post-rewrite": "git-notify rewrite $HUSKY_GIT_PARAMS",
+      "post-checkout": "git-notify checkout $HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branches": [
+      "master",
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  }
+}
