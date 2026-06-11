@@ -1,0 +1,12 @@
+{
+  "extends": ["plugin:valtio/recommended", "plugin:react/recommended"],
+  "rules": {
+    "valtio/state-snapshot-rule": "warn",
+    "react/prop-types": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
